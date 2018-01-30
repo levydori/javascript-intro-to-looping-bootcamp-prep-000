@@ -20,4 +20,9 @@ function maybeTrue() {
   return Math.random() >= 0.5
 }
 
-function 
+function doWhileLoop(arr) {
+  do {
+    
+  } while (! maybeTrue() || arr.lenght == 0)
+  return arr
+}
